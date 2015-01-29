@@ -1,3 +1,5 @@
+/// <reference path="definition/d3.d.ts" />
+
 declare var angular:any;
 
 angular.module("DemoApp",['ui.router'])
