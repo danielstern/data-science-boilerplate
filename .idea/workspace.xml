@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20adef2b-a097-41d1-bb5f-f92b92fc19d2" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Projects\data-science-boilerplate\data\pokemon.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/main.html" afterPath="$PROJECT_DIR$/app/partials/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/typescript/main.ts" afterPath="$PROJECT_DIR$/app/typescript/main.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
     </list>
     <ignored path="data-science-boilerplate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +33,8 @@
       <file leaf-file-name="main.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/typescript/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77003485" vertical-offset="1020" max-vertical-offset="1972">
-              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.9477352" vertical-offset="714" max-vertical-offset="1989">
+              <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -51,38 +46,6 @@
             <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="306">
               <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pokemon.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/data/pokemon.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.230769" vertical-offset="27768" max-vertical-offset="28883">
-              <caret line="1646" column="16" selection-start-line="1646" selection-start-column="16" selection-end-line="1646" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pokemon.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pokemon-d3/app/pokemon.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614" vertical-offset="27064" max-vertical-offset="28866">
-              <caret line="1593" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="1692" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="d3.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/typescript/definition/d3.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="57851">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -358,12 +321,12 @@
       <option name="number" value="Default" />
       <updated>1422496589867</updated>
       <workItem from="1422496590467" duration="70000" />
-      <workItem from="1422496692707" duration="3006000" />
+      <workItem from="1422496692707" duration="4161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3076000" />
+    <option name="totallyTimeSpent" value="4231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="960" height="1040" extended-state="0" />
@@ -438,16 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/typescript/definition/d3.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="57851">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../pokemon-d3/app/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38202247" vertical-offset="0" max-vertical-offset="2176">
@@ -466,15 +419,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../pokemon-d3/app/pokemon.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="27064" max-vertical-offset="28866">
+        <state vertical-scroll-proportion="0.019384265" vertical-offset="27064" max-vertical-offset="28866">
           <caret line="1593" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="1692" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/typescript/definition/d3.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="57851">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/data/pokemon.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.230769" vertical-offset="27768" max-vertical-offset="28883">
+        <state vertical-scroll-proportion="0.24401368" vertical-offset="27768" max-vertical-offset="28883">
           <caret line="1646" column="16" selection-start-line="1646" selection-start-column="16" selection-end-line="1646" selection-end-column="16" />
           <folding />
         </state>
@@ -490,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/typescript/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77003485" vertical-offset="1020" max-vertical-offset="1972">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9477352" vertical-offset="714" max-vertical-offset="1989">
+          <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
           <folding />
         </state>
       </provider>

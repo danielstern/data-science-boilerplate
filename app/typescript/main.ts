@@ -16,8 +16,8 @@ angular.module("DemoApp",['ui.router'])
         var diameter = 1000;
 
         var svg = d3.select("#science").append("svg")
-          .attr("width", diameter)
-          .attr("height", diameter)
+          .attr("width", '100%')
+          .attr("height", '100%')
           .attr("preserveAspectRatio", "xMinYMin meet")
           .attr("viewBox", "0,0,1000,1000")
           .attr("class", "bubble");
@@ -87,7 +87,8 @@ angular.module("DemoApp",['ui.router'])
                   return "lawngreen";
                   break;
               }
-            });
+            })
+          .style('opacity',0.5);
 
           node.append("text")
             .attr("dy", ".2em")
