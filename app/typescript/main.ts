@@ -22,6 +22,17 @@ angular.module("DemoApp",['ui.router'])
           .attr("viewBox", "0,0,1000,1000")
           .attr("class", "bubble");
 
+        var colors = d3.scale.ordinal();
+        colors.domain(['fire','grass','electric','bug', 'fighting','psychic','flying','normal','ghost', 'dragon','water','ice','poison','ground','rock']);
+        colors.range([ 'red', 'green','yellow',  'grey','pink',   'purple', 'cyan',  'beige', 'indigo','azure' ,'pink','blue','black','brown','olivedrab','darkslategrey']);
+
+        var scale = d3.scale.linear();
+        scale.domain([0,150]);
+        scale.range([0,1000]);
+
+        var circleScale = d3.scale.linear();
+        circleScale.domain([0,300]);
+        circleScale.range([0,50]);
 
         d3.json("data/pokemon.json", function(error, root) {
 
@@ -30,7 +41,7 @@ angular.module("DemoApp",['ui.router'])
             .enter().append("g")
             .attr("class", "node")
             .attr("transform", function(d) {
-              return "translate(" + d.attack * 5 + "," + d.defense * 5 + ")";
+              return "translate(" + scale(d.attack) + "," + scale(d.defense) + ")";
             });
 
           node.append("title")
@@ -40,54 +51,9 @@ angular.module("DemoApp",['ui.router'])
 
           node.append("circle")
             .attr("r", function(d) {
-              return d.attack / 4 + d.defense / 6;
+              return circleScale(d.attack + d.defense);
             })
-            .style("fill", function(d) {
-              switch(d.type) {
-                case "fire":
-                  return "red";
-                  break;
-                case "grass":
-                  return "green";
-                  break;
-                case "water":
-                  return "dodgerblue";
-                  break;
-                case "electric":
-                  return "yellow";
-                  break;
-                case "ice":
-                  return "white";
-                  break;
-                case "normal":
-                  return "grey";
-                  break;
-                case "ghost":
-                  return "pink";
-                  break;
-                case "fighting":
-                  return "sienna";
-                  break;
-                case "psychic":
-                  return "purple";
-                  break;
-                case "rock":
-                  return "teal";
-                  break;
-                case "ground":
-                  return "brown";
-                  break;
-                case "dragon":
-                  return "orange";
-                  break;
-                case "poison":
-                  return "chocolate";
-                  break;
-                case "bug":
-                  return "lawngreen";
-                  break;
-              }
-            })
+            .style("fill", function(d){return colors(d.type)})
           .style('opacity',0.5);
 
           node.append("text")
