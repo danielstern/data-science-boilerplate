@@ -13,13 +13,13 @@ angular.module("DemoApp",['ui.router'])
 		url: '/',
     	templateUrl:'partials/main.html',
     	controller:function(){
-        var diameter = 1000;
+        var diameter = 1600;
 
         var svg = d3.select("#science").append("svg")
           .attr("width", '100%')
           .attr("height", '100%')
           .attr("preserveAspectRatio", "xMinYMin meet")
-          .attr("viewBox", "0,0,1000,1000")
+          .attr("viewBox", "0,0,"+diameter+","+diameter)
           .attr("class", "bubble");
 
         var colors = d3.scale.ordinal();
@@ -28,7 +28,7 @@ angular.module("DemoApp",['ui.router'])
 
         var scale = d3.scale.linear();
         scale.domain([0,150]);
-        scale.range([0,1000]);
+        scale.range([0,diameter]);
 
         var circleScale = d3.scale.linear();
         circleScale.domain([0,300]);
